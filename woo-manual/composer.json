@@ -1,0 +1,17 @@
+{
+    "name": "khalid/woo-manual",
+    "description": "Upload product manual with product",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [{
+        "name": "Khalidwebmail",
+        "email": "csewebmail@gmail.com"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Woo\\Manual\\": "includes/"
+        }
+    }
+}
